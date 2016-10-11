@@ -4,7 +4,8 @@
   "description": "Example Shopping Cart App using Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "tsc & mocha build/test --recursive"
+    "pretest": "tsc",
+    "test": "mocha build/test --recursive"
   },
   "author": "Jasdeep Singh <jasdeep@metawarelabs.com> (http://jasdeep.ca/)",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "mocha": "^3.1.1"
   },
   "dependencies": {
+    "lodash": "^4.16.4",
     "typescript": "^2.0.3"
   }
 }

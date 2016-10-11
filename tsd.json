@@ -19,6 +19,9 @@
     },
     "mocha/mocha-node.d.ts": {
       "commit": "f9351fd6d2154b3822444c54e687f1b102827eac"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "5a37d8271be3952f31fffe1b45649c238527a011"
     }
   }
 }
