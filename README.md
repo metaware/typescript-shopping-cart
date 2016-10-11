@@ -1,4 +1,4 @@
-# Node + TypeScript Shopping Cart
+# Node + TypeScript Shopping Cart [![CircleCI](https://circleci.com/gh/metaware/typescript-shopping-cart/tree/master.svg?style=svg&circle-token=32badf7f966ec649ea132d703b916f7a4e6250f0)](https://circleci.com/gh/metaware/typescript-shopping-cart/tree/master)
 
 Example Shopping Cart classes/interfaces to demonstrate usage of TypeScript in a NodeJS environment 
 
