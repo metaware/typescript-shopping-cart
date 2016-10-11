@@ -59,4 +59,15 @@ describe('ShoppingCart', function () {
 
   })
 
+  describe('#clear', () => {
+
+    it('should empty the cart', () => {
+      let cart = new ShoppingCart();
+      cart.addProduct(item);
+      cart.clear();
+      chai.expect(cart.count()).to.be.eq(0);
+    })
+
+  })
+
 });

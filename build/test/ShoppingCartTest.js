@@ -44,4 +44,12 @@ describe('ShoppingCart', function () {
             chai.expect(cart.checkout).to.throw(Error);
         });
     });
+    describe('#clear', () => {
+        it('should empty the cart', () => {
+            let cart = new ShoppingCart_1.ShoppingCart();
+            cart.addProduct(item);
+            cart.clear();
+            chai.expect(cart.count()).to.be.eq(0);
+        });
+    });
 });

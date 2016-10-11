@@ -27,6 +27,10 @@ export class ShoppingCart {
     if (this.items.length == 0) {
       throw new Error("Cannot checkout an empty cart")
     }
+    this.clear();
+  }
+
+  clear() {
     this.items = [];
   }
 
