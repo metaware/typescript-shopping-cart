@@ -4,11 +4,15 @@
   "description": "Example Shopping Cart App using Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc -w & mocha build/test --recursive --watch"
   },
   "author": "Jasdeep Singh <jasdeep@metawarelabs.com> (http://jasdeep.ca/)",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^3.5.0",
     "mocha": "^3.1.1"
+  },
+  "dependencies": {
+    "typescript": "^2.0.3"
   }
 }
