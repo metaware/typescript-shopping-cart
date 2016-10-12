@@ -5,7 +5,9 @@ Example Shopping Cart classes/interfaces to demonstrate usage of TypeScript in a
 # Installation
 
 1. Clone this project.
-2. In root of this project run `npm test`
+2. In the root run the following: 
+  - `npm install` 
+  - `npm test`
 
 ## License
 
